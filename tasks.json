@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Eat my breakfast",
+        "completed": false
+    },
+    {
+        "title": "Take a nap",
+        "completed": false
+    },
+    {
+        "title": "Practice coding",
+        "completed": true
+    },
+    {
+        "title": "Rizz up someone's daughter",
+        "completed": false
+    }
+]
