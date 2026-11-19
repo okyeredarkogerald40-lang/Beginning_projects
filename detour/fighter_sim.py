@@ -4,18 +4,18 @@ import random
 def start_game():
   enemy_hp = 100
   moves = ['P', 'S', 'K', 'B']
-  enemy_moves = random.choice(moves)
+  enemy_move = random.choice(moves)
   hp = 100
   while True:
     print(f"HP: {hp}")
     move = input("Enter your move: ")
-    if move == 'P':
-      enemy_hp -= 7
+    if move == 'P' and enemy_move == 'B':
+      enemy_hp -= 2
       print(f"HP: {enemy_hp}")
-    elif move == 'K':
+    elif move == 'K' and enemy_move == 'B':
       enemy_hp -= 10
       print(f"HP: {enemy_hp}")
-    elif move == 'S':
+    elif move == 'S' and enemy_move == 'B':
       enemy_hp -= 20
       print(f"HP: {enemy_hp}")
     else:
